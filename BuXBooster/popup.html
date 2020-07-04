@@ -5,9 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BuXBooster</title>
     <style>
+        .b1{
+            display:inline-block;
+            padding:0.3em 1.2em;
+            margin:0 0.3em 0.3em 0;
+            border-radius:2em;
+            box-sizing: border-box;
+            text-decoration:none;
+            font-family:'Roboto',sans-serif;
+            font-weight:300;
+            color:#FFFFFF;
+            background-color:#4eb5f1;
+            text-align:center;
+            transition: all 0.2s;
+        }
+        .b1:hover{
+            background-color:#4095c6;
+        }
+        @media all and (max-width:30em){
+            .b1{
+                display:block;
+                margin:0.2em auto;
+            }
+        }
         .bgImg {
-            height: 190px;
-            width: 160px;
+            height: 230px;
+            width: 170px;
             background-image: url('bg1music.jpg');
             border-radius: 10px;
             border-color: aquamarine;
@@ -100,7 +123,7 @@
         <input id="slider1" class="slider1" type="range" max="600" min="100" value="100"></input>
         <p id='slval'></p>
         <button class="b1" id="b1">Boost</button>
-        <button class="b2" id="b2">Download</button>
+        <button class="b1" id="b2">Download</button>
     </div>
     <script src="popup.js" charset="utf-8"></script>
 </body>
