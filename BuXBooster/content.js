@@ -1,4 +1,4 @@
-//alert('gese');
+
 var flag = false;
 var amp;
 var vidURL = "";
@@ -8,7 +8,6 @@ chrome.runtime.onMessage.addListener(function (req){
     console.log(vid);
     if(vid.length == 0){
         vidURL = "";
-        //var par = document.getElementById('seq_content');
         vid = document.getElementsByTagName('iframe');
         let tmp = vid[0].src + "";
         tmp = tmp.split("");
