@@ -18,15 +18,11 @@
             background-color:#4eb5f1;
             text-align:center;
             transition: all 0.2s;
+            transition-duration: 0.4s;
         }
         .b1:hover{
-            background-color:#4095c6;
-        }
-        @media all and (max-width:30em){
-            .b1{
-                display:block;
-                margin:0.2em auto;
-            }
+            background-color: #4CAF50;
+            color: white;
         }
         .bgImg {
             height: 230px;
@@ -93,6 +89,27 @@
         .slider1::-moz-range-progress { 
             background: dodgerblue;
         }
+        @media screen and (-webkit-min-device-pixel-ratio:0){
+            .slider1::-webkit-slider-thumb{
+                width:15px;
+                height: 15px;
+                cursor: ew-resize;
+                background: #1814d8;
+                box-shadow: -80px 0 0 80px #43e5f7
+            }
+            .slider1{
+                overflow:hidden;
+                width:100%;
+                -webkit-appearance: none;
+                background-color: #8aa2e4b0;
+            }
+            .slider1{
+                height: 10px;
+                -webkit-appearance:none;
+                color: #13bba4;
+                margin-top:-1px;
+            }
+        }
         .glow {
             font-size: 20px;
             color: #fff;
@@ -120,7 +137,7 @@
             <h2 class="glow">BuXBooster v1.0</h2>
             <br/>
         </div>
-        <input id="slider1" class="slider1" type="range" max="600" min="100" value="100"></input>
+        <input id="slider1" class="slider1" type="range" max="700" min="50" value="100"></input>
         <p id='slval'></p>
         <button class="b1" id="b1">Boost</button>
         <button class="b1" id="b2">Download</button>

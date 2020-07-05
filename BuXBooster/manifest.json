@@ -1,14 +1,18 @@
+
 {
     "name": "BuXBooster",
     "version": "1.0",
     "description": "Enhance Volume and Download videos from BuX platform",
+    "author": "Somoy Subandhu",
     "content_scripts":[
         {
             "matches": ["<all_urls>"],
-            "js": ["content.js"]
+            "js": ["content.js"],
+            "all_frames" : true
         }
     ],
     "manifest_version": 2,
+    "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
     "browser_action":{
         "default_popup": "popup.html",
         "default_title": "BuXBooster",
@@ -19,8 +23,8 @@
         }
     },
     "icons": {
-        "48": "Bblogo48.png",
-        "128": "Bblogo128.png",
-        "200": "Bblogo2.png"
+        "48": "Bb48.png",
+        "128": "Bb128.png",
+        "200": "Bb.png"
     }
 }

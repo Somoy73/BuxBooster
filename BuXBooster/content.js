@@ -3,7 +3,14 @@ var flag = false;
 var amp;
 var vidURL = "";
 chrome.runtime.onMessage.addListener(function (req){
-    console.log('gese');
+
+    if(req=="download"){
+        let url1 = window.location.href;
+        if(url1.includes("youtube")){
+            alert("Youtube's Eula Policy does not allow extensions to download youtube videos.\nPlease download from BuX or 10-conv instead");
+            return;
+        }
+    }
     let vid = document.getElementsByTagName('video');
     console.log(vid);
     if(vid.length == 0){
@@ -15,8 +22,8 @@ chrome.runtime.onMessage.addListener(function (req){
             vidURL+=ch;
             if(ch=='?') break;
         }
-        alert('New tab needs to be opened because of BuX Restrictions! Please reapply boost in the new tab');
         if(req == "download"){
+            alert('Forwarding to 10-convert due to Eula policies.');
             tmp = vidURL.split("embed/");
             vidURL = tmp[0] + "watch?v=" + tmp[1];
             tmp = vidURL.split("www.");
@@ -24,7 +31,9 @@ chrome.runtime.onMessage.addListener(function (req){
             window.open(vidURL);
             return;
         }else{
-            window.open(vidURL);
+            var f = vid[0].contentWindow.document.getElementsByTagName('video');
+            if(f.length > 0) vid = f;
+            console.log(f);
         }
         /*
         if(vid.length > 0){
@@ -43,15 +52,16 @@ chrome.runtime.onMessage.addListener(function (req){
         if(flag){
             amp.gain.gain.value = multiplier;
             result = amp;
-        }else{
+        }
+        else{
             var context = new (window.AudioContext || window.webkitAudioContext),
             result = {
-              context: context,
-              source: context.createMediaElementSource(mediaElem),
-              gain: context.createGain(),
-              media: mediaElem,
-              amplify: function(multiplier) { result.gain.gain.value = multiplier; },
-              getAmpLevel: function() { return result.gain.gain.value; }
+            context: context,
+            source: context.createMediaElementSource(mediaElem),
+            gain: context.createGain(),
+            media: mediaElem,
+            amplify: function(multiplier) { result.gain.gain.value = multiplier; },
+            getAmpLevel: function() { return result.gain.gain.value; }
             };
             result.source.connect(result.gain);
             result.gain.connect(context.destination);
