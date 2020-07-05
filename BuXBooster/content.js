@@ -7,7 +7,7 @@ chrome.runtime.onMessage.addListener(function (req){
     if(req=="download"){
         let url1 = window.location.href;
         if(url1.includes("youtube")){
-            alert("Youtube's Eula Policy does not allow extensions to download youtube videos.\nPlease download from BuX or 10-conv instead");
+            alert("Youtube's Eula Policy does not allow extensions to download youtube videos.\nPlease download from BuX instead");
             return;
         }
     }
@@ -23,7 +23,7 @@ chrome.runtime.onMessage.addListener(function (req){
             if(ch=='?') break;
         }
         if(req == "download"){
-            alert('Forwarding to 10-convert due to Eula policies.');
+            alert('Forwarding to 10-convert.');
             tmp = vidURL.split("embed/");
             vidURL = tmp[0] + "watch?v=" + tmp[1];
             tmp = vidURL.split("www.");
