@@ -1,201 +1,31 @@
-                                 Apache License
-                           Version 2.0, January 2004
-                        http://www.apache.org/licenses/
+BUXBOOSTER SOFTWARE IS LICENSED, NOT SOLD. USE OF THIS SOFTWARE IS SUBJECT TO LICENSE RESTRICTIONS. CAREFULLY READ THIS LICENSE AGREEMENT BEFORE USING THE SOFTWARE. USE OF SOFTWARE INDICATES COMPLETE AND UNCONDITIONAL ACCEPTANCE OF THE TERMS AND CONDITIONS SET FORTH IN THIS AGREEMENT. ANY ADDITIONAL OR DIFFERENT PURCHASE ORDER TERMS AND CONDITIONS SHALL NOT APPLY.
 
-   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+ END-USER LICENSE AGREEMENT ("Agreement") for No-Charge Software
 
-   1. Definitions.
+Clicking “accept” or installing and/or using the Software (defined below) establishes a binding agreement between BUXBOOSTER, Inc. (“BUXBOOSTER”) and you as the person or entity licensing the Software (“Customer”); provided that if you are accepting this Agreement on behalf of a legal entity, you represent that you have the authority to bind such entity to this Agreement, in which case the term "Customer" refers to such entity. IF YOU DO NOT HAVE SUCH AUTHORITY OR IF YOU DO NOT ACCEPT ALL OF THE TERMS OF THIS AGREEMENT, IMMEDIATELY RETURN, OR IF RECEIVED ELECTRONICALLY, CERTIFY DESTRUCTION OF SOFTWARE AND ALL ACCOMPANYING ITEMS, AND YOU WILL RECEIVE A FULL REFUND OF ANY LICENSE FEE PAID.
 
-      "License" shall mean the terms and conditions for use, reproduction,
-      and distribution as defined by Sections 1 through 9 of this document.
+1. SOFTWARE; OWNERSHIP; GRANT OF LICENSE.
 
-      "Licensor" shall mean the copyright owner or entity authorized by
-      the copyright owner that is granting the License.
+1.1 The software, including any upgrades, updates, modifications, revisions, copies, and documentation made available by BUXBOOSTER (“Software”), is available for download by Customer at no charge. To the extent Customer requests and BUXBOOSTER accepts a request to download the Software from BUXBOOSTER’s customer center, each such request will constitute a contract between Customer and BUXBOOSTER, which shall be governed solely and exclusively by the terms and conditions of this Agreement, the applicable terms provided at the time of online registration to download the Software, and the product-specific terms at www.BUXBOOSTER.com/terms, (collectively the “Order”). The Software may contain or be accompanied by certain third party software components (“Third-Party Code”) identified at www.BUXBOOSTER.com/terms (“Third-Party Notices”). The Third Party Notices may include important licensing and liability disclaimers from the Third-Party Code licensors. Customer’s use of Third-Party Code in conjunction with the Software in accordance with this Agreement is permitted under all such Third-Party Notices. All software shall be deemed delivered when made available to Customer for download. BUXBOOSTER’s delivery of Software by electronic means is subject to Customer’s provision of both a primary and an alternate e-mail address.
 
-      "Legal Entity" shall mean the union of the acting entity and all
-      other entities that control, are controlled by, or are under common
-      control with that entity. For the purposes of this definition,
-      "control" means (i) the power, direct or indirect, to cause the
-      direction or management of such entity, whether by contract or
-      otherwise, or (ii) ownership of fifty percent (50%) or more of the
-      outstanding shares, or (iii) beneficial ownership of such entity.
+1.2 Software, including all copies and documentation, is copyrighted, trade secret and confidential information of BUXBOOSTER or its licensors, who maintain exclusive title to all Software and retain all rights not expressly granted by this Agreement. You must old BUXBOOSTER confidential information in strict confidence. BUXBOOSTER grants to Customer, subject to Customer’s compliance with the terms and conditions of this Agreement, a nontransferable, nonexclusive license to use Software solely: (a) in machine-readable, object or executable code form; (b) as specified in the Order; and (c) for Customer’s internal business purposes. Customer acknowledges that no-charge versions of the Software may have more limited functionality than commercial versions available for a fee. Customer acknowledges that BUXBOOSTER may discontinue the no-charge program at any time. Each Order for Software will identify the Software, license unit of measure, and any time period restriction, if applicable. Such limitations may be technically implemented through the use of authorization codes, license keys, or similar devices. Customer may choose to, but is not required to, provide suggestions, data, or other information to BUXBOOSTER regarding possible improvements in the operation, functionality or use of Software, whether in the course of receiving services, evaluating Software or otherwise, and any inventions, product improvements, modifications or developments made by BUXBOOSTER, at its sole discretion, will be the exclusive property of BUXBOOSTER.
 
-      "You" (or "Your") shall mean an individual or Legal Entity
-      exercising permissions granted by this License.
+2. CONDITIONS
 
-      "Source" form shall mean the preferred form for making modifications,
-      including but not limited to software source code, documentation
-      source, and configuration files.
+2.1 Customer shall not loan, rent, lease, distribute, or otherwise transfer Software without BUXBOOSTER’s prior written consent, except as part of a permanent transfer of the Software as permitted by this Agreement. Customer may copy Software only as reasonably necessary to support the authorized use, as long as the number of licenses in use does not exceed the number of licenses purchased by Customer. Each copy must include all notices embedded in Software as received from BUXBOOSTER. All copies remain the property of BUXBOOSTER or its licensors. Customer shall not: (a) use the Software or allow its use for developing, enhancing or marketing any product that is competitive with the Software; or (b) disclose to any third party the results of or information pertaining to any testing of the Products against a third party’s products for the purpose of competitive comparison. Customer shall not reverse-assemble, reverse-compile, reverse-engineer or in any way derive source code from Software.
 
-      "Object" form shall mean any form resulting from mechanical
-      transformation or translation of a Source form, including but
-      not limited to compiled object code, generated documentation,
-      and conversions to other media types.
+2.2 Customer may allow third party consultants or contractors (“Authorized Third Parties”) to access and use the Software on Customer’s behalf as long as: (a) the use is solely for Customer’s internal business operations; (b) each Authorized Third Party is under written confidentiality obligations with Customer protecting BUXBOOSTER’s intellectual property and Confidential Information with terms no less stringent than this Agreement; (c) Customer ensures that the Authorized Third Party’s use of the Software complies with the terms of this Agreement; and (d) on completion of the Authorized Third Party’s services requiring use of the Software, Customer ensures that the Software are immediately and completely uninstalled from Authorized Third Party’s equipment and/or premises, as applicable.
 
-      "Work" shall mean the work of authorship, whether in Source or
-      Object form, made available under the License, as indicated by a
-      copyright notice that is included in or attached to the work
-      (an example is provided in the Appendix below).
+2.3 Customer may move the Software: (a) from one node (i.e. authorized hardware) to another without charge; and (b) from one site to another site. No transfer under this section shall increase the license scope or number of nodes in use by Customer. Except as provided herein, Customer shall not sublicense, assign or otherwise transfer the Software without BUXBOOSTER’s prior written consent and payment of BUXBOOSTER’s then-current applicable transfer charges. Any attempted transfer without BUXBOOSTER’s prior written consent shall be a material breach of this Agreement and may, at BUXBOOSTER’s option, result in the immediate termination of the licenses and this Agreement. On BUXBOOSTER's written request, Customer will furnish to BUXBOOSTER: (a) a certification signed by an officer indicating whether the Software is being used in accordance with this Agreement; and (b) a copy of any usage reports generated from the Software, if applicable. BUXBOOSTER may engage an independent auditor to review Customer’s Software usage and related records during Customer’s normal business hours to confirm compliance with this Agreement.
 
-      "Derivative Works" shall mean any work, whether in Source or Object
-      form, that is based on (or derived from) the Work and for which the
-      editorial revisions, annotations, elaborations, or other modifications
-      represent, as a whole, an original work of authorship. For the purposes
-      of this License, Derivative Works shall not include works that remain
-      separable from, or merely link (or bind by name) to the interfaces of,
-      the Work and Derivative Works thereof.
+2.4 All Software is commercial off-the-shelf computer software. Pursuant to US FAR 48 CFR 12.212 and DFAR 48 CFR 227.7202, use, duplication and disclosure of the Software by or for the U.S. Government or a U.S. Government subcontractor is subject solely to the terms of this Agreement, except for terms that are contrary to applicable mandatory federal laws. Unless otherwise agreed to in writing by authorized personnel of BUXBOOSTER and Customer, no term or condition required in any U.S. Government contract or related subcontract shall be part of an Order or binding upon BUXBOOSTER.
 
-      "Contribution" shall mean any work of authorship, including
-      the original version of the Work and any modifications or additions
-      to that Work or Derivative Works thereof, that is intentionally
-      submitted to Licensor for inclusion in the Work by the copyright owner
-      or by an individual or Legal Entity authorized to submit on behalf of
-      the copyright owner. For the purposes of this definition, "submitted"
-      means any form of electronic, verbal, or written communication sent
-      to the Licensor or its representatives, including but not limited to
-      communication on electronic mailing lists, source code control systems,
-      and issue tracking systems that are managed by, or on behalf of, the
-      Licensor for the purpose of discussing and improving the Work, but
-      excluding communication that is conspicuously marked or otherwise
-      designated in writing by the copyright owner as "Not a Contribution."
+3. CUSTOMER RESPONSIBILITIES; DISCLAIMER OF WARRANTIES; NO SUPPORT.Customer is solely responsible for selecting the Software to achieve its intended results, and for the installation of, use of, and results obtained from the Software. Customer is solely responsible for compliance with all laws, rules and regulations applicable to Customer’s use of the Software. Customer is solely responsible for any taxes, customs duties or similar charges arising out of Customer’s receipt or use of the Software. The Software is made available by BUXBOOSTER AS-IS, without warranty of any kind. BUXBOOSTER AND ITS LICENSORS EXPRESSLY DISCLAIM ANY AND ALL WARRANTIES OF ANY NATURE, EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR PURPOSE OR NON-INFRINGEMENT. BUXBOOSTER support services are not available for no-charge Software. BUXBOOSTER may, but is not required to, make patches, updates and upgrades to the Software available from time to time. Installation and use of such releases are governed by the terms of this Agreement.
 
-      "Contributor" shall mean Licensor and any individual or Legal Entity
-      on behalf of whom a Contribution has been received by Licensor and
-      subsequently incorporated within the Work.
+4. DISCLAIMER OF LIABILITY.The Software is provided to Customer at no-charge. BUXBOOSTER AND ITS LICENSORS SHALL HAVE NO LIABILITY FOR ANY DAMAGES WHATSOEVER. WITHOUT LIMITING THE FOREGONING, IN NO EVENT SHALL BUXBOOSTER OR ITS LICENSORS BE LIABLE FOR DIRECT, PUNITIVE, EXEMPLARY, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES (INCLUDING LOST DATA, LOST PROFITS OR SAVINGS) WHETHER BASED ON CONTRACT, TORT OR ANY OTHER LEGAL THEORY, EVEN IF BUXBOOSTER OR ITS LICENSORS HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. Customer acknowledges that the Software is provided at no-charge, reflecting the allocation of risk set forth in this Agreement and that BUXBOOSTER would not enter into this Agreement or offer the Software at no charge without these limitations on its liability. Some jurisdictions do not allow the exclusion or limitation of liability for certain damages for certain types of claims, so the above limitation may not apply to you to the extent prohibited by such local laws.
 
-   2. Grant of Copyright License. Subject to the terms and conditions of
-      this License, each Contributor hereby grants to You a perpetual,
-      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
-      copyright license to reproduce, prepare Derivative Works of,
-      publicly display, publicly perform, sublicense, and distribute the
-      Work and such Derivative Works in Source or Object form.
+5. TERM AND TERMINATION.This Agreement remains effective until terminated. This Agreement will immediately terminate upon notice if Customer exceeds the scope of license granted or otherwise fails to comply with Sections 1 or 2. For any other material breach under this Agreement, BUXBOOSTER may terminate this Agreement upon 30 days written notice if Customer is in material breach and fails to cure such breach within the 30 day notice period. If a Software license was provided for limited term use, such license will automatically terminate at the end of the authorized term. Customer may terminate this Agreement at any time by providing written notice to BUXBOOSTER. On termination of this Agreement or any Software license under this Agreement, Customer shall ensure that all use of the affected Software ceases, and shall certify the destruction of all copies of the Software used by Customer to BUXBOOSTER’s reasonable satisfaction. The following sections will survive any termination of this Agreement: 1-4 and 6-7.
 
-   3. Grant of Patent License. Subject to the terms and conditions of
-      this License, each Contributor hereby grants to You a perpetual,
-      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
-      (except as stated in this section) patent license to make, have made,
-      use, offer to sell, sell, import, and otherwise transfer the Work,
-      where such license applies only to those patent claims licensable
-      by such Contributor that are necessarily infringed by their
-      Contribution(s) alone or by combination of their Contribution(s)
-      with the Work to which such Contribution(s) was submitted. If You
-      institute patent litigation against any entity (including a
-      cross-claim or counterclaim in a lawsuit) alleging that the Work
-      or a Contribution incorporated within the Work constitutes direct
-      or contributory patent infringement, then any patent licenses
-      granted to You under this License for that Work shall terminate
-      as of the date such litigation is filed.
+6. EXPORTCustomer agrees to comply with all international and national laws that apply to the Software, including, but not limited to, the U.S. Export Administration Regulations, economic sanctions regulations administered by the Office of Foreign Assets Control, as well as similar restrictions issued by U.S. and other governments, which prohibit the provision of Software to specified destinations, end-users and end uses. Customer specifically represents and warrants that it will not export, re-export, sell, supply or transfer the Software to any country or person to which the United States has embargoed or restricted the provision of the Software, including, but not limited to, Cuba, Iran, North Korea, Sudan (North) or Syria, nationals of those countries, or to any other embargoed or restricted destination or person.
 
-   4. Redistribution. You may reproduce and distribute copies of the
-      Work or Derivative Works thereof in any medium, with or without
-      modifications, and in Source or Object form, provided that You
-      meet the following conditions:
-
-      (a) You must give any other recipients of the Work or
-          Derivative Works a copy of this License; and
-
-      (b) You must cause any modified files to carry prominent notices
-          stating that You changed the files; and
-
-      (c) You must retain, in the Source form of any Derivative Works
-          that You distribute, all copyright, patent, trademark, and
-          attribution notices from the Source form of the Work,
-          excluding those notices that do not pertain to any part of
-          the Derivative Works; and
-
-      (d) If the Work includes a "NOTICE" text file as part of its
-          distribution, then any Derivative Works that You distribute must
-          include a readable copy of the attribution notices contained
-          within such NOTICE file, excluding those notices that do not
-          pertain to any part of the Derivative Works, in at least one
-          of the following places: within a NOTICE text file distributed
-          as part of the Derivative Works; within the Source form or
-          documentation, if provided along with the Derivative Works; or,
-          within a display generated by the Derivative Works, if and
-          wherever such third-party notices normally appear. The contents
-          of the NOTICE file are for informational purposes only and
-          do not modify the License. You may add Your own attribution
-          notices within Derivative Works that You distribute, alongside
-          or as an addendum to the NOTICE text from the Work, provided
-          that such additional attribution notices cannot be construed
-          as modifying the License.
-
-      You may add Your own copyright statement to Your modifications and
-      may provide additional or different license terms and conditions
-      for use, reproduction, or distribution of Your modifications, or
-      for any such Derivative Works as a whole, provided Your use,
-      reproduction, and distribution of the Work otherwise complies with
-      the conditions stated in this License.
-
-   5. Submission of Contributions. Unless You explicitly state otherwise,
-      any Contribution intentionally submitted for inclusion in the Work
-      by You to the Licensor shall be under the terms and conditions of
-      this License, without any additional terms or conditions.
-      Notwithstanding the above, nothing herein shall supersede or modify
-      the terms of any separate license agreement you may have executed
-      with Licensor regarding such Contributions.
-
-   6. Trademarks. This License does not grant permission to use the trade
-      names, trademarks, service marks, or product names of the Licensor,
-      except as required for reasonable and customary use in describing the
-      origin of the Work and reproducing the content of the NOTICE file.
-
-   7. Disclaimer of Warranty. Unless required by applicable law or
-      agreed to in writing, Licensor provides the Work (and each
-      Contributor provides its Contributions) on an "AS IS" BASIS,
-      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
-      implied, including, without limitation, any warranties or conditions
-      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A
-      PARTICULAR PURPOSE. You are solely responsible for determining the
-      appropriateness of using or redistributing the Work and assume any
-      risks associated with Your exercise of permissions under this License.
-
-   8. Limitation of Liability. In no event and under no legal theory,
-      whether in tort (including negligence), contract, or otherwise,
-      unless required by applicable law (such as deliberate and grossly
-      negligent acts) or agreed to in writing, shall any Contributor be
-      liable to You for damages, including any direct, indirect, special,
-      incidental, or consequential damages of any character arising as a
-      result of this License or out of the use or inability to use the
-      Work (including but not limited to damages for loss of goodwill,
-      work stoppage, computer failure or malfunction, or any and all
-      other commercial damages or losses), even if such Contributor
-      has been advised of the possibility of such damages.
-
-   9. Accepting Warranty or Additional Liability. While redistributing
-      the Work or Derivative Works thereof, You may choose to offer,
-      and charge a fee for, acceptance of support, warranty, indemnity,
-      or other liability obligations and/or rights consistent with this
-      License. However, in accepting such obligations, You may act only
-      on Your own behalf and on Your sole responsibility, not on behalf
-      of any other Contributor, and only if You agree to indemnify,
-      defend, and hold each Contributor harmless for any liability
-      incurred by, or claims asserted against, such Contributor by reason
-      of your accepting any such warranty or additional liability.
-
-   END OF TERMS AND CONDITIONS
-
-   APPENDIX: How to apply the Apache License to your work.
-
-      To apply the Apache License to your work, attach the following
-      boilerplate notice, with the fields enclosed by brackets "[]"
-      replaced with your own identifying information. (Don't include
-      the brackets!)  The text should be enclosed in the appropriate
-      comment syntax for the file format. We also recommend that a
-      file or class name and description of purpose be included on the
-      same "printed page" as the copyright notice for easier
-      identification within third-party archives.
-
-   Copyright [yyyy] [name of copyright owner]
-
-   Licensed under the Apache License, Version 2.0 (the "License");
-   you may not use this file except in compliance with the License.
-   You may obtain a copy of the License at
-
-       http://www.apache.org/licenses/LICENSE-2.0
-
-   Unless required by applicable law or agreed to in writing, software
-   distributed under the License is distributed on an "AS IS" BASIS,
-   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-   See the License for the specific language governing permissions and
-   limitations under the License.
+7. GENERAL TERMSThis Agreement shall be governed by and construed under the laws of the State of Oregon, USA, excluding choice of laws rules. Any action or proceeding arising from or relating to this Agreement, must be brought in a federal court in the District of Oregon or in state court in Multnomah County, Oregon, and each party irrevocably submits to the jurisdiction and venue of any such court in any such action or proceeding; however, this provision shall not restrict BUXBOOSTER’s right to bring an action against Customer or its subsidiary in the jurisdiction where Customer’s or its subsidiary’s place of business is located. The United Nations Convention on Contracts for the International Sale of Goods does not apply to this Agreement. If a court of competent jurisdiction finds any provision of this Agreement invalid or unenforceable, that provision will be enforced to the maximum extent permissible and the other provisions of this Agreement will remain in full force and effect. This Agreement may only be modified in writing by authorized representatives of the parties. All notices required or authorized under this Agreement must be in writing and shall be sent, as applicable, to Customer’s legal department. Waiver of terms or excuse of breach must be in writing and shall not constitute subsequent consent, waiver or excuse.
