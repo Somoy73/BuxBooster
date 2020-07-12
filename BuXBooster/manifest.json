@@ -1,7 +1,7 @@
 
 {
     "name": "BuXBooster",
-    "version": "1.0",
+    "version": "1.0.2",
     "description": "Enhance Volume and Download videos from BuX platform",
     "author": "Somoy Subandhu",
     "content_scripts":[

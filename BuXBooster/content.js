@@ -23,11 +23,9 @@ chrome.runtime.onMessage.addListener(function (req){
             if(ch=='?') break;
         }
         if(req == "download"){
-            alert('Forwarding to 10-convert.');
+            alert('Forwarding to savesubs!');
             tmp = vidURL.split("embed/");
-            vidURL = tmp[0] + "watch?v=" + tmp[1];
-            tmp = vidURL.split("www.");
-            vidURL = tmp[0] + "www.100"+tmp[1];
+            vidURL = "https://savesubs.com/process?url=" +tmp[0] + "watch?v=" + tmp[1];
             window.open(vidURL);
             return;
         }else{
@@ -70,6 +68,12 @@ chrome.runtime.onMessage.addListener(function (req){
             
         }
         return result;
+    }
+    function subtitleGen(result){
+        var rec = result.context;
+        rec.continuous = true;
+        rec.start();
+
     }
     amp = amplifyMedia(vid[0],x);
     console.log(amp);  
